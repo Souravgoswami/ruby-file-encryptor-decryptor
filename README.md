@@ -1,6 +1,8 @@
 # ruby-file-encryptor-decryptor
 Ruby File Encryptor and Decryptor. Must Read the Warnings Before Using.
 
+## This is under development.
+
 ## Features ⛑
 *Ruby File Encryptor-Decryptor* uses OpenSSL to encrypt and decrypt your files with AES-128-CBC.
 
