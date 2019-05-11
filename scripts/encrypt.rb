@@ -2,7 +2,6 @@
 require 'openssl'
 STDOUT.sync = STDERR.sync = true
 
-
 module Encrypt
 	PATH ||= File.dirname(__FILE__)
 	EXCLUDE ||= [File.join(File.basename(__FILE__)), 'decrypt.rb']
