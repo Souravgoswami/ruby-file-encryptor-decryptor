@@ -15,7 +15,7 @@ Ruby File Encryptor and Decryptor. Must Read the Warnings Before Using.
 ## Working 👨‍🏭👩‍🏭
 + *Ruby File Encryptor-Decrytor* uses AES encryption to encrypt your files.
 + The Keys are 16 bits, generated randomly and appended to the end of the file.
-+ If you encrypted one of your file, you have to decrypt with the decrypt method.
-+ Ecryption is irreversible. If you overwrite a file. It's gone. So be very careful.
++ If you encrypted one of your file, you have to decrypt only with the decrypt module. Any other software or self written programs won't work unless you replicate the decrypt module.
++ Ecryption is irreversible. If you overwrite a file. It's gone without the decrypt module. So be very careful.
 
 ## Usage:
